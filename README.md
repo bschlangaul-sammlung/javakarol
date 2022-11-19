@@ -1,5 +1,7 @@
 # javakarol
 
+Dekompilierte, lauffähige Version des Robot Karol von Ulli Freiberger
+
 https://mebis.bycs.de/beitrag/robot-karol
 
 Robot Karol 3.0.4 vom 21.09.2019
