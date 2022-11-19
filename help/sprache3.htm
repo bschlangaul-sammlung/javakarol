@@ -1,0 +1,138 @@
+<HTML>
+<HEAD>
+    <meta name="keywords" content="Robot, Karol, Programmiersprache">
+    <meta name="author" content="Ulli Freiberger">
+    <link rel="stylesheet" type="text/css" href="karol.css">
+    <title>Robot Karol - Sprache</title>
+</HEAD>
+
+<BODY>
+<table border=0 cellspacing=0 cellpadding=0 width=490>
+    <tr>
+        <td colspan=3><img src="imgs/top_rkarol.gif" width="490" height="60"></td>
+    </tr>
+
+    <tr>
+        <td width=490 background="imgs/white.gif" align=left valign=top>
+            <table cellspacing=5 cellpadding=2 border=0 width=490>
+            <tr>
+                <td>
+                Die <b>Sprache Karol</b> umfasst: (3.Teil)<p>
+
+                <table cellspacing=0 cellpadding=5 border=1 width=100%>
+                    <tr> <td width="30%"></td> <td width="70%" ></td></tr>
+                    <tr>
+                        <td colspan=2 background="imgs/orange.gif" >vordefinierte Bedingungen</td>
+                    </tr>
+                    <tr>
+                         <td width="40%" >IstWand</td>
+                        <td>WAHR, wenn Karol vor der Wand oder vor einem Quader steht und in diese Richtung schaut</td>
+                    </tr>
+                    <tr>
+                        <td>NichtIstWand</td>
+                        <td>WAHR, wenn IstWand nicht zutrifft</td>
+                    </tr>
+                    <tr>
+                        <td>IstZiegel</td>
+                        <td>WAHR, wenn Karol vor einem Ziegel oder Ziegelstapel steht und zu diesem schaut</td>
+                    </tr>
+                    <tr>
+                        <td>IstZiegel(<i>anzahl</i>)</td>
+                        <td>WAHR, wenn Karol vor einem Ziegelstapel der angegebenen H&ouml;he <i>anzahl</i> steht und zu diesem schaut</td>
+                    </tr>
+                    <tr>
+                        <td>IstZiegel(<i>farbe</i>)</td>
+                        <td>WAHR, wenn Karol vor einem Ziegel oder Ziegelstapel steht
+                         und der oberste Ziegel die angegebene Farbe hat<br>
+                         <i>farbe</i>: rot, gelb, blau, gr&uuml;n</td>
+                    </tr>
+                    <tr>
+                        <td>NichtIstZiegel</td>
+                        <td>WAHR, wenn IstZiegel nicht zutrifft</td>
+                    </tr>
+                    <tr>
+                        <td>NichtIstZiegel(<i>anzahl</i>)</td>
+                        <td>WAHR, wenn IstZiegel(<i>anzahl</i>) nicht zutrifft</td>
+                    </tr>
+                    <tr>
+                        <td>NichtIstZiegel(<i>farbe</i>)</td>
+                        <td>WAHR, wenn IstZiegel(<i>farbe</i>) nicht zutrifft</td>
+                    </tr>
+                    <tr>
+                        <td>IstMarke</td>
+                        <td>WAHR, wenn Karol auf einer Marke steht</td>
+                    </tr>
+                    <tr>
+                        <td>IstMarke(<i>farbe</i>)</td>
+                        <td>WAHR, wenn Karol auf einer Marke mit einer bestimmten Farbe steht<br>
+                        <i>farbe</i>: rot, gelb, blau, gr&uuml;n</td>
+                    </tr>
+                    <tr>
+                        <td>NichtIstMarke</td>
+                        <td>WAHR, wenn IstMarke nicht zutrifft</td>
+                    </tr>
+                    <tr>
+                        <td>NichtIstMarke(<i>farbe</i>)</td>
+                        <td>WAHR, wenn IstMarke(<i>farbe</i>) nicht zutrifft</td>
+                    </tr>
+                    <tr>
+                        <td>IstS&uuml;den<br>IstNorden<br>IstWesten<br>IstOsten</td>
+                        <td>WAHR, wenn Karol in diese Richtung schaut</td>
+                    </tr>
+                    <tr>
+                        <td>IstVoll</td>
+                        <td>WAHR, wenn Karol seine Tragf&auml;higkeit erreicht hat<br>
+                        d.h. der Rucksack voll ist</td>
+                    </tr>
+                    <tr>
+                        <td>NichtIstVoll</td>
+                        <td>WAHR, wenn IstVoll nicht zutrifft</td>
+                    </tr>
+                    <tr>
+                        <td>IstLeer</td>
+                        <td>WAHR, wenn Karol keinen Ziegel mit sich tr&auml;gt<br>
+                        d.h. der Rucksack leer ist</td>
+                    </tr>
+                    <tr>
+                        <td>NichtIstLeer</td>
+                        <td>WAHR, wenn IstLeer nicht zutrifft</td>
+                    </tr>
+                    <tr>
+                        <td>HatZiegel</td>
+                        <td>WAHR, wenn Karol mindestens einen Ziegel mit sich tr&auml;gt</td>
+                    </tr>
+                    <tr>
+                        <td>HatZiegel(<i>anzahl</i>)</td>
+                        <td>WAHR, wenn Karol die angegebene Anzahl Ziegel mit sich tr&auml;gt</td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 background="imgs/orange.gif" >selbstdefinierte Bedingungen</td>
+                    </tr>
+                    <tr>
+                        <td>Bedingung <i>Bez</i><br>
+                        <i>&nbsp;&nbsp;&nbsp;Anweisungen</i><br>*Bedingungen</td>
+                        <td>definiert neue Bedingung mit dem Bezeichner <i>Bez</i><br>
+                        die reservierten W&ouml;rter WAHR und FALSCH legen den entsprechenden R&uuml;ckgabewert fest
+                        <br>statt *Bedingung ist endeBedingung m&ouml;glich</td>
+                    </tr>
+                </table>
+
+                <p>
+                <table cellspacing=0 cellpadding=0 border=0 width=100%>
+                    <tr>
+                          <td align=left  width=50%><a href="sprache2.htm"> &lt;&lt;&lt;&lt; Anweisungen </a></td>
+                          <td align=right width=50%><a href="sprache.htm"> Kontrollstrukturen &gt;&gt;&gt;&gt; </a></td>
+                    </tr>
+                </table>
+
+                </td>
+            </tr>
+        </table>
+        </td>
+
+    </tr>
+</table>
+
+</BODY>
+
+</HTML>

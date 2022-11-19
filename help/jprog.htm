@@ -1,0 +1,120 @@
+<HTML>
+<HEAD>
+    <meta name="keywords" content="Robot, Karol, Programmiersprache, Java Karol">
+    <meta name="author" content="Ulli Freiberger">
+    <link rel="stylesheet" type="text/css" href="karol.css">
+    <title>Java Karol - Programmierung</title>
+</HEAD>
+
+<BODY>
+<table border=0 cellspacing=0 cellpadding=0 width=490>
+    <tr>
+        <td><img src="imgs/top_jkarol.gif" width="490" height="60"></td>
+    </tr>
+
+    <tr>
+        <td width=490 align=left valign=top>
+        <table cellspacing=5 cellpadding=2 border=0 width=490>
+            <tr>
+                <td>
+                Java Karol Programme k&ouml;nnen mit jeder <b>Java-Entwicklungsumgebung</b> erstellt werden. Empfohlen wird
+                <b>BlueJ</b>, eine Entwicklungsumgebung f&uuml;r objektorientierte Java-Programme, die speziell f&uuml;r den
+                Schulunterricht entworfen wurde.<p>
+                Das Paket JavaKarol wird als ZIP-Datei ausgeliefert <a href="jdownload.htm">(Download)</a>.<br>
+                Zur Benutzung muss das Paket, einschlie&szlig;lich der Ordnerstruktur, in ein Verzeichnis auf dem Rechner entpackt
+                werden. Dies wird im Folgenden mit <i>JavaKarol_Verzeichnis</i> bezeichnet (z. B. C:\Programme\JavaKarol).<p>
+                Das Paket JavaKarol umfasst folgende Dateien bzw. Verzeichnisse:<br>&nbsp;<br>
+
+                <table cellspacing=0 cellpadding=5 border=1>
+                    <tr>
+                        <td width=40% >
+                        javakarol.jar
+                        </td>
+                        <td>Java-Bibliothek mit den Verzeichnissen <i>javakarol</i> (die Java-Klassen) und <i>imgs</i>
+                        (die GIF-Dateien f&uuml;r die Karolfiguren, Ziegel, Marken, usw.)</td>
+                    </tr>
+                    <tr>
+                        <td >
+                        JavaKarolHandbuch.pdf
+                        </td>
+                        <td>Das Handbuch zu Java Karol</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Doc\
+                        </td>
+                        <td>Javadoc Dokumentation der Klassen Roboter und Welt</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Beispiele\
+                        </td>
+                        <td>Einige Beispiele f&uuml;r den Einsatz von JavaKarol (jeweils *.java und *.class)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Beispiele\Karolwelten
+                        </td>
+                        <td>Einige Karol-Welten *.kdw bzw. *.jkw</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        BlueJ\BlueKarol
+                        </td>
+                        <td>Standardprojekt f&uuml;r die Verwendung von BlueJ. Dient als Grundlage und Vorlage f&uuml;r alle
+                        Karol-Projekte unter BlueJ. Enth&auml;lt die Unterklassen ROBOTER und WELT.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        BlueJ\Beispiele
+                        </td>
+                        <td>Beispielprojekte f&uuml;r die Verwendung von JavaKarol unter der Entwicklungsumgebung BlueJ.</td>
+                    </tr>
+                </table>
+
+                <p>
+                <hr>
+                <img src="imgs/java.gif"><b>Einsatz mit Java</b> :
+                <ul>
+                    <li>Installation der  Entwicklungsumgebung f&uuml;r Java. Z. B. Eclipse, NetBeans, Java-Editor oder ein
+                    Texteditor unter anschlie&szlig;ender Verwendung des Javacompilers javac. </li>
+                    <li>Erfassung des Programmtextes: Damit die Java-Klassen Roboter und Welt im Programm verwendet werden
+                    k&ouml;nnen muss der Programmtext xyz.java die Angaben <i>import javakarol.Roboter;</i>
+                    <i>import javakarol.Welt;</i> enthalten.</li>
+                    <li>Zum Compilieren muss die Bibliothek <i>javakarol.jar</i> im Klassenpfad liegen.</li>
+                    <li>Zum Ausf&uuml;hren der compilierten Java-Klasse xyz.class muss beim Start der virtuellen Java-Engine
+                    ebenfalls die Bibliothek <i>javakarol.jar</i> im Klassenpfad liegen.</li>
+                    <li>n&auml;heres siehe <a href="jdownload.htm">Handbuch zu Java Karol</a> Kapitel &quot;Einsatz mit Java&quot;.</li>
+                </ul>
+
+                <p>
+                <hr>
+                <img src="imgs/bluej.gif"><b>Einsatz mit BlueJ</b> :
+                <ul>
+                    <li>Vollst&auml;ndige Installation der Entwicklungsumgebung BlueJ.
+                    <a href="jdownload.htm">(Download)</a><br>Im Folgenden wird das Programm-Verzeichnis von BlueJ
+                    mit <i>BlueJ_Verzeichnis</i> bezeichnet (meist C:\Programme\BlueJ).</li>
+                    <li>Kopieren Sie aus dem JavaKarol-Packet die Java-Bibliothek javakarol.jar in das Verzeichnis
+                    <i>BlueJ_Verzeichnis</i>\lib\userlib</li>
+                    <li>Als Vorlage f&uuml;r ein neues Karol-Projekt dient das ausgelieferte Standardprojekt BlueKarol. Diese
+                    Vorlage sollten Sie nicht ver&auml;ndern. Fertigen Sie deshalb eine Kopie des Ordners
+                    <i>JavaKarol_Verzeichnis</i>\BlueJ\BlueKarol an und speichern Sie diesen in Ihrem BlueJ-Arbeitsverzeichnis
+                    unter einem geeigneten Namen.</li>
+                    <li>Starten Sie BlueJ. Mit "Projekt - Projekt &ouml;ffnen …" &ouml;ffnen Sie das im vorherigen Punkt erstellte
+                    Projekt in Ihrem BlueJ-Arbeitsverzeichnis.</li>
+                    <li>n&auml;heres siehe <a href="jdownload.htm">Handbuch zu Java Karol</a> Kapitel &quot;Einsatz mit BlueJ&quot;.</li>
+
+                </ul>
+
+                <br><br>
+                </td>
+            </tr>
+        </table>
+        </td>
+
+    </tr>
+</table>
+
+</BODY>
+
+</HTML>

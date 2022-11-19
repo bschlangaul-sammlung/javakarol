@@ -1,0 +1,62 @@
+BODY{
+        background-color:#FFFFFF;
+        color:Navy;
+        font-family:Arial;
+}
+
+TH{
+        color:Gray;
+        font-family:Arial;
+        font-size:medium;
+}
+
+TD{
+        color:Navy;
+        font-family:Arial;
+        font-size:medium;
+}
+
+
+A{
+        color:#EF8400;
+        font-family:Arial;
+        font-weight:bold;
+        font-size:medium;
+        text-decoration:none;
+}
+
+B.RLink2{
+        color:#EF8400;
+        font-family:Arial;
+        font-weight:bold;
+        font-size:medium;
+        text-decoration:none;
+}
+
+B.RLink{
+        color:#D69C39;
+        font-family:Arial;
+        font-weight:bold;
+        font-size:medium;
+        text-decoration:none;
+}
+
+B.JLink{
+        color:#6081A4;
+        font-family:Arial;
+        font-weight:bold;
+        font-size:medium;
+        text-decoration:none;
+}
+
+B.DLink{
+        color:#186619;
+        font-family:Arial;
+        font-weight:bold;
+        font-size:medium;
+        text-decoration:none;
+}
+
+.link {color:#000000;}
+
+.link2 { color:#FF0000; font-size:large; }
